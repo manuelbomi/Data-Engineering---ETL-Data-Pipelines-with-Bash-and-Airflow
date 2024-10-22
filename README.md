@@ -71,6 +71,11 @@ You can also see snapshots of each of the ETL tasks taken from the CLI.
 
 ![dag_args](https://github.com/user-attachments/assets/9d445c72-cb83-4a32-abf8-161d9d0fce39)
 
+### Define the DAG
+
+![dag_definition](https://github.com/user-attachments/assets/ce331cb2-37a0-44d9-b999-04242e907c4a)
+
+
 
 
 
