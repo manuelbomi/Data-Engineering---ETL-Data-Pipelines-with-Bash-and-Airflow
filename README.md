@@ -38,3 +38,5 @@ Start the web server on port 6060 or any other desired port:
 
 * $ airflow scheduler
 
+The Airflow web server can now be accessed at: http://localhost:6060
+
