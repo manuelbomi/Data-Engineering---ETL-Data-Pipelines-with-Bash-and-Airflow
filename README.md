@@ -55,5 +55,29 @@ Use curl or wget to download the project data:
 
 In case the IBM link for the project no longer works, the data (tolldata.tgz) has been downloaded and included as part of this tutorial repository. 
 
+From the command line, create the 'ETL_toll_data.py'
+
+* $ touch ETL_toll_data.py
+
+To edit and add the tutorial code, open the 'ETL_toll_data.py' using nano:
+
+* $ nano ETL_toll_data.py
+
+Include the codes below in the ETL_toll_data.py file
+
+###Import Libraries
+from datetime import timedelta
+### Import the DAG object. We will need this to instantiate a DAG
+from airflow import DAG
+### Import Operators. We will need this to write tasks. It could be either BashOperator or PythonOperator #depending on preference or need
+from airflow.operators.bash_operator import BashOperator
+### For scheduling the DAG runs
+from airflow.utils.dates import days_ago
+### These args will get passed on to each operator
+### You can override them on a per-task basis during operator initialization
+
+
+
+
 
 
