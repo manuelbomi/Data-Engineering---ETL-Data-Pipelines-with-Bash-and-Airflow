@@ -95,6 +95,11 @@ You can also see snapshots of each of the ETL tasks taken from the CLI.
 
 ![consolidate_data](https://github.com/user-attachments/assets/f612d27f-7758-476d-a3ac-66bcdeee5917)
 
+### Create a task to transform the data
+
+![transform](https://github.com/user-attachments/assets/88c2dd1b-b73b-4e1c-b36d-1da8517a76fa)
+
+
 
 
 
