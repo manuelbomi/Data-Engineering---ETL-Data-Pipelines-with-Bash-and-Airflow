@@ -67,14 +67,26 @@ Include the codes below in the ETL_toll_data.py file
 
 ### Import Libraries
 from datetime import timedelta
-*  Import the DAG object. We will need this to instantiate a DAG
 from airflow import DAG
-*  Import Operators. We will need this to write tasks. It could be either BashOperator or PythonOperator #depending on preference or need
 from airflow.operators.bash_operator import BashOperator
-*  For scheduling the DAG runs
 from airflow.utils.dates import days_ago
-*  These args will get passed on to each operator
-*  You can override them on a per-task basis during operator initialization
+
+
+### Define DAG Arguments
+### Here, default arguments such as your name, email, delay time before retries in case your any of your 
+### DAGs fails; etc. 
+default_args = {
+    'owner ': 'your name',
+    'start_date': days_ago(0),   
+    'email': ['your_email@email_domain.com'],
+    'email_on_failure': True,
+    'email_on_retry': True',
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
+}
+
+
+
 
 
 
