@@ -83,6 +83,13 @@ You can also see snapshots of each of the ETL tasks taken from the CLI.
 
 ![extract_data_from_csv](https://github.com/user-attachments/assets/55747261-3e62-491f-afec-bc449a1d7b45)
 
+### Create a task to extract data from TSV file
+
+![extract_data_from_tsv](https://github.com/user-attachments/assets/fdb75a3c-549c-4133-9674-0dfe30d7ca70)
+
+
+
+
 
 
 
