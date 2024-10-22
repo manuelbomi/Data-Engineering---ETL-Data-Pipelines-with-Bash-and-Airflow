@@ -65,11 +65,11 @@ To edit and add the tutorial code, open the 'ETL_toll_data.py' using nano:
 
 Include the codes below in the ETL_toll_data.py file
 
-** Import Libraries
+** # Import Libraries
 from datetime import timedelta
 ** Import the DAG object. We will need this to instantiate a DAG
 from airflow import DAG
-* Import Operators. We will need this to write tasks. It could be either BashOperator or PythonOperator #depending on preference or need
+** # Import Operators. We will need this to write tasks. It could be either BashOperator or PythonOperator #depending on preference or need
 from airflow.operators.bash_operator import BashOperator
 * For scheduling the DAG runs
 from airflow.utils.dates import days_ago
