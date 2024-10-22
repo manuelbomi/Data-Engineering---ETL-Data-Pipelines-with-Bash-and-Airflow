@@ -18,5 +18,9 @@ You are to curate the data from their different respective formats and store it 
 ## Apache Airflow Installation
 To install Airflow on Ubuntu or Centos OS, first set up the Airflow home from your command line. Use the following command:
 
-- $ export AIRFLOW_HOME=~/airflow
+* $ export AIRFLOW_HOME=~/airflow
+
+Install Apache Airflow
+
+* $ pip3 install apache-airflow
 
