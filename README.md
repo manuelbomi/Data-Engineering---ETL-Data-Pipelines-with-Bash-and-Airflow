@@ -65,6 +65,14 @@ To edit and add the tutorial code, open the 'ETL_toll_data.py' using nano:
 
 ## See the project's repository for the complete tutorial code in 'ETL_toll_data.py'
 
+You can also see snapshots of each of the ETL tasks taken from the CLI. 
+
+### Define DAG arguments
+
+![dag_args](https://github.com/user-attachments/assets/9d445c72-cb83-4a32-abf8-161d9d0fce39)
+
+
+
 
 
 
