@@ -75,6 +75,11 @@ You can also see snapshots of each of the ETL tasks taken from the CLI.
 
 ![dag_definition](https://github.com/user-attachments/assets/ce331cb2-37a0-44d9-b999-04242e907c4a)
 
+### Unzip the project's data
+
+![unzip_data](https://github.com/user-attachments/assets/e68fbe34-cc81-4e62-99a5-fbfac1cc588f)
+
+
 
 
 
