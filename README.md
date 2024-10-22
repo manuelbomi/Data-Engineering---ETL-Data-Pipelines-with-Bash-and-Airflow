@@ -63,27 +63,7 @@ To edit and add the tutorial code, open the 'ETL_toll_data.py' using nano:
 
 * $ nano ETL_toll_data.py
 
-Include the codes below in the ETL_toll_data.py file
-
-### Import Libraries
-from datetime import timedelta
-from airflow import DAG
-from airflow.operators.bash_operator import BashOperator
-from airflow.utils.dates import days_ago
-
-
-### Define DAG Arguments
-### Here, default arguments such as your name, email, delay time before retries in case your any of your 
-### DAGs fails; etc. 
-default_args = {
-    'owner ': 'your name',
-    'start_date': days_ago(0),   
-    'email': ['your_email@email_domain.com'],
-    'email_on_failure': True,
-    'email_on_retry': True',
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5),
-}
+### See the project's repository for the complete project code in 'ETL_toll_data.py'
 
 
 
