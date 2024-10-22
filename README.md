@@ -99,6 +99,11 @@ You can also see snapshots of each of the ETL tasks taken from the CLI.
 
 ![transform](https://github.com/user-attachments/assets/88c2dd1b-b73b-4e1c-b36d-1da8517a76fa)
 
+### Create a task to define the Airflow task pipeline
+
+![task_pipeline](https://github.com/user-attachments/assets/04519770-d588-4c50-9063-3fdeb4908d6e)
+
+
 
 
 
