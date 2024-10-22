@@ -15,5 +15,5 @@ Extract data from a fixed-width file
 Transform the data
 Load the transformed data into the staging area
 
-You can download the data using curl or wget from: ........
+You can download the data using curl or wget from: .............
 
