@@ -15,5 +15,5 @@ You are to curate the data from their different respective formats and store it 
     - Transform the data
     - Load the transformed data into the staging area
 
-You can download the data using curl or wget from: .....
+You can download the data using curl or wget from: ........
 
