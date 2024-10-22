@@ -20,7 +20,13 @@ To install Airflow on Ubuntu or Centos OS, first set up the Airflow home from yo
 
 * $ export AIRFLOW_HOME=~/airflow
 
+Detailed information regarding installation could be found here: https://github.com/apache/airflow
+
 Install Apache Airflow
 
-* $ pip3 install apache-airflow
+* $ pip install apache-airflow
+
+Then, initialize the Airflow backend
+
+** $ airflow db init **
 
