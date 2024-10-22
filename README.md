@@ -103,6 +103,11 @@ You can also see snapshots of each of the ETL tasks taken from the CLI.
 
 ![task_pipeline](https://github.com/user-attachments/assets/04519770-d588-4c50-9063-3fdeb4908d6e)
 
+### To submit the DAG, it is sufficient to use the command: 'airflow dags trigger ETL_toll_data' as shown below:
+
+![submit_dag](https://github.com/user-attachments/assets/97862774-24c9-4cf6-80ec-09ee2d39aafd)
+
+
 
 
 
