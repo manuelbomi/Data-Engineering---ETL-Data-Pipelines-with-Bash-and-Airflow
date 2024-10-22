@@ -107,6 +107,11 @@ You can also see snapshots of each of the ETL tasks taken from the CLI.
 
 ![submit_dag](https://github.com/user-attachments/assets/97862774-24c9-4cf6-80ec-09ee2d39aafd)
 
+### The submission can be verified by using the command 'airflow list dags' or by opeining the Aiflow's UI and verifying that your dag is listed on the front end as shown below:
+
+![submit_dag _verify_2](https://github.com/user-attachments/assets/73711d4f-eb0b-4002-94a3-16b1ac988856)
+
+
 
 
 
