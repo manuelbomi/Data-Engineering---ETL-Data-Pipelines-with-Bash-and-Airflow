@@ -16,13 +16,10 @@ You are to curate the data from their different respective formats and store it 
 * Load the transformed data into the staging area
 
 ## Apache Airflow Installation
-To install Airflow on Ubuntu or Centos OS, first set up the Airflow home from your command line. Use the following command:
 
-* $ export AIRFLOW_HOME=~/airflow
+Detailed information regarding Apache Airflow installation on Ubuntu, CentOS or WSL on Windows could be found here: https://github.com/apache/airflow . However, a concise summary regarding the installation of Airflow is provided below.
 
-Detailed information regarding installation could be found here: https://github.com/apache/airflow
-
-Install Apache Airflow:
+To install Apache Airflow:
 
 * $ pip install apache-airflow  (use pip3 if pip did not work)
 
@@ -39,4 +36,9 @@ Start the web server on port 6060 or any other desired port:
 * $ airflow scheduler
 
 The Airflow web server can now be accessed at: http://localhost:6060
+
+## Project Setup and Procedure
+To complete the ETL project, first set up the Airflow home from your command line. Use the following command:
+
+* $ export AIRFLOW_HOME=~/airflow
 
