@@ -63,7 +63,7 @@ To edit and add the tutorial code, open the 'ETL_toll_data.py' using nano:
 
 * $ nano ETL_toll_data.py
 
-### See the project's repository for the complete project code in 'ETL_toll_data.py'
+## See the project's repository for the complete tutorial code in 'ETL_toll_data.py'
 
 
 
