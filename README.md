@@ -87,6 +87,16 @@ You can also see snapshots of each of the ETL tasks taken from the CLI.
 
 ![extract_data_from_tsv](https://github.com/user-attachments/assets/fdb75a3c-549c-4133-9674-0dfe30d7ca70)
 
+### Create a task to extract data from fixed width file
+
+![extract_data_from_fixed_width](https://github.com/user-attachments/assets/c5345c18-adf6-4931-a234-107df9633bd7)
+
+### Create a task to consolidate data
+
+![consolidate_data](https://github.com/user-attachments/assets/f612d27f-7758-476d-a3ac-66bcdeee5917)
+
+
+
 
 
 
