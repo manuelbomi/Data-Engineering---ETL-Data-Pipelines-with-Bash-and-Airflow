@@ -111,6 +111,17 @@ You can also see snapshots of each of the ETL tasks taken from the CLI.
 
 ![submit_dag _verify_2](https://github.com/user-attachments/assets/73711d4f-eb0b-4002-94a3-16b1ac988856)
 
+### The DAG can be paused/unpaused using the commands: 
+
+airflow dags pause ETL_toll_data
+
+airflow dags unpause ETL_toll_data
+
+### Pausing/unpausing DAGS can also be accomplished through the Airflow UI as shown below:
+
+![unpause_trigger_dag](https://github.com/user-attachments/assets/597b1a5b-1650-4ca4-af38-4fce532b9073)
+
+
 
 
 
