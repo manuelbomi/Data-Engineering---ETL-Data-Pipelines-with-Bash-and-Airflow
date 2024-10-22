@@ -15,5 +15,8 @@ You are to curate the data from their different respective formats and store it 
 * Transform the data
 * Load the transformed data into the staging area
 
-You can download the data using curl or wget from: .............
+## Apache Airflow Installation
+To install Airflow on Ubuntu or Centos OS, first set up the Airflow home from your command line. Use the following command:
+
+- $ export AIRFLOW_HOME=~/airflow
 
