@@ -40,5 +40,20 @@ The Airflow web server can now be accessed at: http://localhost:6060
 ## Project Setup and Procedure
 To complete the ETL project, first set up the Airflow home from your command line. Use the following command:
 
-* $ export AIRFLOW_HOME=~/airflow
+* $ export AIRFLOW_HOME= /home/project/airflow
+
+Create a directory structure for the project's data staging area
+* $ sudo mkdir -p /home/project/airflow/dags/staging
+
+Grant read, write and execute permission to users in the project's directory:
+
+* $ sudo chmod -R 777 /home/project/airflow/dags/staging
+
+Use curl or wget to download the project data: 
+
+* $ wget -P /home/project/airflow/dags https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0250EN-SkillsNetwork/labs/Final%20Assignment/tolldata.tgz
+
+In case the IBM link for the project no longer works, the data (tolldata.tgz) has been downloaded and included as part of this tutorial repository. 
+
+
 
