@@ -121,6 +121,11 @@ airflow dags unpause ETL_toll_data
 
 ![unpause_trigger_dag](https://github.com/user-attachments/assets/597b1a5b-1650-4ca4-af38-4fce532b9073)
 
+### List DAG tasks
+
+![dag_tasks](https://github.com/user-attachments/assets/4b9c722f-ac69-4cea-ba23-fe02f1c47a35)
+
+
 
 
 
