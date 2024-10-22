@@ -79,6 +79,11 @@ You can also see snapshots of each of the ETL tasks taken from the CLI.
 
 ![unzip_data](https://github.com/user-attachments/assets/e68fbe34-cc81-4e62-99a5-fbfac1cc588f)
 
+### Create a task to extract data from CSV file
+
+![extract_data_from_csv](https://github.com/user-attachments/assets/55747261-3e62-491f-afec-bc449a1d7b45)
+
+
 
 
 
